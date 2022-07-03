@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'nunito sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: lighter;
+    display: grid;
+}
+
+
+
+main{
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    width: 100%;
+}
+
+.hmessage {
+  font-size: 10px;
+  letter-spacing: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.header {
+   margin-top: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    position: fixed;
+    border: 1px black;
+  }
+  
+  .header a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    font-size: 10px;
+    text-decoration: none;
+
+  }
+
+  .header a:hover {
+    text-decoration: underline;
+  }
+
+  .logo img{
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  
+  .header a.logo {
+    float: center;
+    margin-right: 16px;
+  }
+
+
+  
+  .menu {
+    margin-top: 50px;
+    margin-right: 40px;
+    padding-left: 16px;
+    float: left;
+    text-decoration: none;
+    
+  }
+
+  .menu:hover {
+    text-decoration: underline;
+
+  }
+
+
+.gallery-tittle {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin: 50px;
+
+  }
+
+/* contenedores MAIN */
+
+
+  .container-main{
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card__tittle{
+  padding-top: 390px;
+  padding-left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #eee;
+  letter-spacing: 12px;
+
+}
+
+.card__panaderia{
+  background-image:url(./Assets/fotopanaderiamainbody.jpg);
+  background-repeat: round;
+  width: 500px;
+  height: 500px;
+  margin-top: 10px ;
+
+}
+
+.card__pasteleria{
+  background-image:url(./Assets/fotopasteleriamainbody.jpg);
+  background-repeat: round;
+  width: 500px;
+  height: 500px;
+  margin-top: 10px ;
+
+}
+
+.card__banqueteria{
+  background-image:url(./Assets/fotobanqueteria-mainbody\ copy.jpg);
+  background-repeat: round;
+  width: 500px;
+  height: 500px;
+  margin-top: 10px ;
+
+}
+
+.pvp{
+  padding-left: 30px;
+  padding-bottom: 55px;
+}
+
+.botonVerProductos{
+  color:#ffffff;
+  padding: 15px 20px 15px 20px;
+  background-color: rgba(0, 0, 0, 0.705);
+  border-width: 1px;
+  border-style:solid;
+  border-color: #ffffff;
+}
+.botonVerProductos:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style:solid;
+  border-color: #000000;
+}
+
+/* SLIDESHOW MAIN*/
+
+
+/* instagram section*/
+
+.instatexto{
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 110px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+/*display: flex;
+flex-wrap: wrap;
+justify-content: space-around;*/
+
+.instaflex{
+  margin-top: 40px;
+  height: 500px;
+  display: grid;
+  /* flex-wrap: wrap; */
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  gap: 20px;
+  /* justify-content: space-around; */
+}
+
+.instabox1{
+  width: 440px;
+  height: 440px;
+  background-image: url(./Assets/torta1.jpg);
+  background-repeat: round;
+}
+.instabox2{
+  width: 440px;
+  height: 440px;
+  background-image: url(./Assets/torta2.jpg);
+  background-repeat: round;
+
+}
+
+.instabox3{
+  width: 440px;
+  height: 440px;
+  background-image: url(./Assets/torta3.jpg);
+  background-repeat: round;
+
+}
+
+.instabox4{
+  width: 440px;
+  height: 440px;
+  background-image: url(./Assets/torta4.jpg);
+  background-repeat: round;
+
+}
+
+/* FOOTER*/
+
+
+.pie-pagina{
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.pie-pagina .grupo-1{
+  width: 100%;
+  margin: auto;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
+  margin-top: -20px;
+}
+
+.pie-pagina .grupo-2{
+  background-color: rgb(192, 192, 192);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+  
+  .image-grid {
+    --gap: 16px;
+    --num-cols: 4;
+    --row-height:300px;
+
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+
+  }
+
+  .image-grid >img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  
+
+
+  /*  media queries  */
+  @media screen and (max-width: 1200px) {
+    .logo img{
+      margin-bottom: -50px;
+    }
+
+
+
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+      font-size: 5px;
+    }
+
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+      font-size: 10px;
+
+    }
+
+    .header-right {
+      float: none;
+      font-size: 5px;
+
+    }
+
+    .instaflex{
+      height: 950px;
+      grid-template-columns: repeat(2,1fr);
+    }
+
+
+
+    .header a.logo {
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      a:hover {
+        /* background-color: #F7AD41; */
+        color: black;
+      }
+
+      .header {
+        width: 100%;
+        overflow: hidden;
+        /* padding: 20px 10px; */
+      }
+
+      main{
+        margin-top: 450px;
+        background-color: white;
+      }      
+
+      .logo:hover{
+        text-decoration: none;
+      }
+    }
+
+ 
+ 
+ 
+  @media screen and (max-width: 768px) {
+
+    .logo img{
+      width: 200px;
+      margin-bottom: -50px;
+    }
+
+      a:hover {
+        color: black;
+      }
+
+
+    .header {
+       margin-top: var(--gap);
+       width: 100%;
+       overflow: hidden;
+       background-color: #f1f1f1;
+      }
+    
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+      font-size: 10px;
+    }
+
+    .header-right {
+      float: none;
+
+    }     
+
+    .instaflex{
+      margin-top: 40px;
+      height: 1900px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+
+    .gallery-tittle {
+      letter-spacing: 10px;
+      text-align: center;
+      font-size: 25px;
+      margin-top: -10px;
+  
+    }
+  
+    
+   .header a.logo {
+    text-decoration: none;
+    text-align: center;
+   }
+ 
+   .pie-pagina .grupo-1{
+     width: 80%;
+     grid-template-columns: repeat(1, 1fr);
+     grid-gap: 30px;
+     padding: 35px 0px;
+   }
+
+   .pie-pagina .grupo-1 .box figure img {
+     width: 150px;
+   }
+
+   }
+
+  
