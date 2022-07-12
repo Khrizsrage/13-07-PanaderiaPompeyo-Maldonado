@@ -1,0 +1,14 @@
+{
+  "name": "desafio-sass",
+  "version": "1.0.0",
+  "description": "desafio 13-07-2022 aplicando SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Maldonado",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

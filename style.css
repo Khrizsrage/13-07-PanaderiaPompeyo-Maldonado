@@ -118,7 +118,7 @@ main{
 }
 
 .card__panaderia{
-  background-image:url(./Assets/fotopanaderiamainbody.jpg);
+  background-image:url(./assets/fotopanaderiamainbody.jpg);
   background-repeat: round;
   width: 500px;
   height: 500px;
@@ -127,7 +127,7 @@ main{
 }
 
 .card__pasteleria{
-  background-image:url(./Assets/fotopasteleriamainbody.jpg);
+  background-image:url(./assets/fotopasteleriamainbody.jpg);
   background-repeat: round;
   width: 500px;
   height: 500px;
@@ -136,7 +136,7 @@ main{
 }
 
 .card__banqueteria{
-  background-image:url(./Assets/fotobanqueteria-mainbody\ copy.jpg);
+  background-image:url(./assets/fotobanqueteria-mainbody\ copy.jpg);
   background-repeat: round;
   width: 500px;
   height: 500px;
@@ -199,13 +199,13 @@ justify-content: space-around;*/
 .instabox1{
   width: 440px;
   height: 440px;
-  background-image: url(./Assets/torta1.jpg);
+  background-image: url(./assets/torta1.JPG);
   background-repeat: round;
 }
 .instabox2{
   width: 440px;
   height: 440px;
-  background-image: url(./Assets/torta2.jpg);
+  background-image: url(./assets/torta3.jpg);
   background-repeat: round;
 
 }
@@ -213,7 +213,7 @@ justify-content: space-around;*/
 .instabox3{
   width: 440px;
   height: 440px;
-  background-image: url(./Assets/torta3.jpg);
+  background-image: url(./assets/torta3.jpg);
   background-repeat: round;
 
 }
@@ -221,7 +221,7 @@ justify-content: space-around;*/
 .instabox4{
   width: 440px;
   height: 440px;
-  background-image: url(./Assets/torta4.jpg);
+  background-image: url(./assets/torta4.jpg);
   background-repeat: round;
 
 }
