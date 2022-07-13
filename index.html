@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-widh, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Nunito+Sans:wght@200;400;800&display=swap" rel="stylesheet"></head>
@@ -13,10 +13,12 @@
 </head>
 <body>
     <header >
-        <div class="hmessage">PANADERÍA CHILENA ARTESANAL </div>
+        <div class="top">
+            <p class="top__message">PANADERÍA CHILENA ARTESANAL</p>        
+        </div>
         <div class="header">
             <a href="./index.html" class="logo"><img src="./assets/logoheader.png" alt=""></a>
-            <div class="menu">
+            <div class="header__menu">
               <a href="">CONTACTO</a>
               <a href="">NUESTROS PRODUCTOS</a>
               <a href="">PEDIDOS</a>
@@ -34,33 +36,39 @@
         
         
         <!--PRODUCTOS MAIN-->
-        <section class="container-main">
-            <article class="card card__panaderia">
-                <h3 class="card__tittle">PANADERÍA</h3>
-                <br/>
-                <br/>
-                <p class="card_link pvp">
-                    <a href="" class="botonVerProductos" >VER PRODUCTOS</a>
-                </p>
-            </article>
-            <article class="card card__pasteleria">
-                <h3 class="card__tittle">PASTELERÍA</h3>
-                <br/>
-                <br/>
-                <p class="card_link pvp">
-                    <a href="" class="botonVerProductos" >VER PRODUCTOS</a>
-                </p>
-            </article>
-            <article class="card card__banqueteria">
-                <h3 class="card__tittle">BANQUETERÍA</h3>
-                <br/>
-                <br/>
-                <p class="card_link pvp">
-                    <a href="" class="botonVerProductos">VER PRODUCTOS</a>
-                </p>    
-            </article>
+        <section class=" productos container">
+            <div class="productos__grid">
+                <article class="card">
+                  <div class="card__header"><img src="./assets/fotopanaderiamainbody.jpg"alt="Panaderia"/>
+                  </div>
+                  <h3 class="card__title">PANADERÍA</h3>
+                  <p class="card__description">
+                    Exquisitas masas directamente de nuestro horno a su mesa                  </p>
+                  <a class="card__link" href="">Ver Productos</a>
+                </article>
+                <div class="productos__grid">
+                    <article class="card">
+                      <div class="card__header"><img src="./assets/fotobanqueteria-mainbody copy.jpg"alt="Panaderia"/>
+                      </div>
+                      <h3 class="card__title">PANADERÍA</h3>
+                      <p class="card__description">
+                        Exquisitas masas directamente de nuestro horno a su mesa                  </p>
+                      <a class="card__link" href="">Ver Productos</a>
+                    </article>
+                    <div class="productos__grid">
+                        <article class="card">
+                          <div class="card__header"><img src="./assets/fotopasteleriamainbody.jpg"alt="Panaderia"/>
+                          </div>
+                          <h3 class="card__title">PANADERÍA</h3>
+                          <p class="card__description">
+                            Exquisitas masas directamente de nuestro horno a su mesa                  </p>
+                          <a class="card__link" href="">Ver Productos</a>
+                        </article>
+            
+      
+
         </section>
-        <!-- instagram section-->
+
         <section >
               <section class="instatexto">
             <div class="">SÍGUENOS EN INSTAGRAM</div>
@@ -72,17 +80,7 @@
                 <img src="./assets/torta2.jpg" alt="">
                 <img src="./assets/torta3.jpg" alt="">
                 <img src="./assets/torta4.jpg" alt="">
-            </div>
-    
-            <!-- <section class="instatexto">
-            <div class="">SÍGUENOS EN INSTAGRAM</div>
-            </section>
-            <section class="instaflex">
-                <div class="instabox1"></div>
-                <div class="instabox2"></div>
-                <div class="instabox3"></div>
-                <div class="instabox4"></div>
-            </section> -->
+            </div>    
         </section>
         </div>
     </main>
